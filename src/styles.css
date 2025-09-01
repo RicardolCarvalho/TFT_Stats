@@ -1,0 +1,43 @@
+.app-container { font-family: ui-sans-serif, system-ui, -apple-system; padding: 16px; max-width: 980px; margin: 0 auto; }
+.app-title { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+
+.welcome { margin-top: 20px; color: #4b5563; }
+.welcome-title { font-weight: 700; font-size: 18px; }
+.welcome-p { margin-top: 6px; }
+.welcome-hint { margin-top: 6px; font-size: 12px; }
+
+.search-row { display: flex; gap: 8px; align-items: center; margin-top: 12px; }
+.input { flex: 1; padding: 10px 12px; border-radius: 10px; border: 1px solid #ddd; }
+.select { padding: 10px 12px; border-radius: 10px; border: 1px solid #ddd; }
+.button { padding: 10px 14px; border-radius: 10px; background: #111827; color: #fff; border: none; cursor: pointer; }
+.button[disabled] { opacity: 0.7; cursor: not-allowed; }
+
+.error-alert { background: #fee2e2; border: 1px solid #ef4444; color: #991b1b; padding: 12px; border-radius: 8px; margin-top: 12px; }
+
+.profile { margin-top: 16px; display: flex; gap: 12px; align-items: center; }
+.profile-icon { width: 56px; height: 56px; border-radius: 12px; }
+.name-row { display: flex; align-items: center; gap: 8px; }
+.name-primary { font-weight: 700; }
+.name-secondary { color: #6b7280; }
+.rank { font-weight: 600; color: #374151; }
+.level { color: #666; }
+
+.matches-grid { margin-top: 16px; display: grid; grid-template-columns: 1fr; gap: 12px; }
+
+.match-card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 12px; }
+.match-card-header { display: flex; justify-content: space-between; align-items: center; }
+.muted { color: #6b7280; }
+
+.units-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+.unit { display: flex; align-items: center; gap: 8px; padding: 8px; border: 1px solid #eee; border-radius: 10px; }
+.unit-img { border-radius: 8px; }
+.unit-name { font-weight: 600; }
+.unit-stars { color: #6b7280; font-size: 12px; }
+
+.traits { margin-top: 8px; color: #374151; }
+.traits-title { font-weight: 700; margin-bottom: 4px; }
+.trait-chip { background: #f3f4f6; border-radius: 999px; padding: 6px 10px; font-size: 12px; }
+
+.not-found { border: 1px solid #e5e7eb; border-radius: 12px; padding: 12px; }
+.not-found-text { color: #6b7280; font-size: 14px; }
+
